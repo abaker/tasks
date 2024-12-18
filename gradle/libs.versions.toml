@@ -164,7 +164,7 @@ okhttp-mockwebserver = { module = "com.squareup.okhttp3:mockwebserver", version.
 osmdroid = { module = "org.osmdroid:osmdroid-android", version.ref = "osmdroid" }
 oss-licenses-plugin = { module = "com.google.android.gms:oss-licenses-plugin", version.ref = "oss-licenses-plugin" }
 persistent-cookiejar = { module = "com.github.franmontiel:PersistentCookieJar", version.ref = "persistent-cookiejar" }
-play-billing-ktx = { module = "com.android.billingclient:billing-ktx", version = "6.2.1" }
+play-billing-ktx = { module = "com.android.billingclient:billing-ktx", version = "7.1.1" }
 play-review = { module = "com.google.android.play:review-ktx", version = "2.0.2" }
 play-services-maps = { module = "com.google.android.gms:play-services-maps", version.ref = "play-services-maps" }
 play-services-location = { module = "com.google.android.gms:play-services-location", version.ref = "play-services-location" }

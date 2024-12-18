@@ -557,16 +557,16 @@
 +|    +--- com.google.android.gms:play-services-base:18.5.0 (*)
 +|    +--- com.google.android.gms:play-services-basement:18.4.0 (*)
 +|    \--- com.google.android.gms:play-services-tasks:18.2.0 (*)
-++--- com.android.billingclient:billing-ktx:6.2.1
-+|    +--- com.android.billingclient:billing:6.2.1
+++--- com.android.billingclient:billing-ktx:7.1.1
++|    +--- com.android.billingclient:billing:7.1.1
 +|    |    +--- androidx.activity:activity:1.2.3 -> 1.9.3 (*)
 +|    |    +--- com.google.android.datatransport:transport-api:3.0.0 -> 3.2.0 (*)
 +|    |    +--- com.google.android.datatransport:transport-backend-cct:3.1.8 -> 3.3.0 (*)
 +|    |    +--- com.google.android.datatransport:transport-runtime:3.1.8 -> 3.3.0 (*)
-+|    |    +--- com.google.android.gms:play-services-base:18.3.0 -> 18.5.0 (*)
-+|    |    +--- com.google.android.gms:play-services-basement:18.3.0 -> 18.4.0 (*)
++|    |    +--- com.google.android.gms:play-services-base:18.5.0 (*)
++|    |    +--- com.google.android.gms:play-services-basement:18.4.0 (*)
 +|    |    +--- com.google.android.gms:play-services-location:19.0.0 -> 21.3.0 (*)
-+|    |    \--- com.google.android.gms:play-services-tasks:18.1.0 -> 18.2.0 (*)
++|    |    \--- com.google.android.gms:play-services-tasks:18.2.0 (*)
 +|    +--- org.jetbrains.kotlin:kotlin-stdlib:1.4.0 -> 2.0.21 (*)
 +|    \--- org.jetbrains.kotlinx:kotlinx-coroutines-core:1.6.0 -> 1.8.1 (*)
 ++--- com.google.android.play:review-ktx:2.0.2
