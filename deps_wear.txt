@@ -834,6 +834,9 @@
 +|    |    \--- androidx.compose.ui:ui-tooling-data:1.7.6 (c)
 +|    +--- org.jetbrains.kotlin:kotlin-stdlib:2.1.10 (*)
 +|    +--- project :data
++|    |    +--- dev.zacsweers.redacted:redacted-compiler-plugin-annotations:1.12.0
++|    |    |    \--- dev.zacsweers.redacted:redacted-compiler-plugin-annotations-jvm:1.12.0
++|    |    |         \--- org.jetbrains.kotlin:kotlin-stdlib:2.1.0 -> 2.1.10 (*)
 +|    |    +--- org.jetbrains.kotlin:kotlin-stdlib:2.1.10 (*)
 +|    |    +--- androidx.room:room-runtime:2.7.0-alpha12
 +|    |    |    \--- androidx.room:room-runtime-android:2.7.0-alpha12
