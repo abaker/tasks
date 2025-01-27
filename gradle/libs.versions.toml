@@ -212,4 +212,4 @@ ksp = { id = "com.google.devtools.ksp", version = "2.1.0-1.0.29" }
 jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 protobuf = { id = "com.google.protobuf", version = "0.9.4" }
-redacted = { id = "dev.zacsweers.redacted", version = "1.11.0" }
+redacted = { id = "dev.zacsweers.redacted", version = "1.12.0" }
