@@ -172,7 +172,11 @@ class CustomRecurrenceViewModel @Inject constructor(
             builder.interval(state.interval)
         }
         when (state.endSelection) {
-            1 -> builder.until(Date(state.endDate))
+            // 1 -> builder.until(Date(state.endDate))
+            // builder.until expects that Date() is in local timezone and strips it, which effectively
+            // equivalent to decrementing the "endDate" value by TimeZone.offset. This changes the date
+            // to the previous day in timezones to the East of GMT, so this value shall be pre-shifted
+            1 -> builder.until(Date(DateTime(state.endDate).let { it.millis + it.offset }))
             2 -> builder.count(state.endCount.coerceAtLeast(1))
         }
         return builder.build().toString()

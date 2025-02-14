@@ -25,7 +25,11 @@ fun DatePickerDialog(
 ) {
     val initialDateUTC by remember(initialDate) {
         derivedStateOf {
-            DateTime(initialDate).toUTC().millis
+            // DateTime(initialDate).toUTC().millis
+            // DateTime.toUTC() does not change DateTime.millis value, but DatePicker expects it
+            // is in local timezone and decrements it by TimeZone.offset. This shifts the date to
+            // the previous date in timezones to East of GMT, which is unexpected
+            DateTime(initialDate).let { it.millis + it.offset }
         }
     }
     val datePickerState = rememberDatePickerState(
