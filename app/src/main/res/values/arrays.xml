@@ -160,6 +160,7 @@
     <item>@string/caldav_server_owncloud</item>
     <item>@string/caldav_server_sabredav</item>
     <item>@string/caldav_server_synology_calendar</item>
+    <item>@string/caldav_server_xandikos</item>
     <item>@string/caldav_server_other</item>
     <item>@string/caldav_server_unknown</item>
   </string-array>

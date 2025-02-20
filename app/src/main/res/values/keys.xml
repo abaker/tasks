@@ -22,6 +22,7 @@
   <string name="caldav_server_openxchange">Open-Xchange</string>
   <string name="caldav_server_synology_calendar">Synology Calendar</string>
   <string name="caldav_server_mailbox_org">Mailbox.org</string>
+  <string name="caldav_server_xandikos">Xandikos</string>
 
   <string name="url_davx5">https://tasks.org/davx5</string>
   <string name="url_caldav">https://tasks.org/caldav</string>
